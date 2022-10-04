@@ -1,0 +1,14 @@
+public class DSGraph {
+//our graph is a DShashmap, mapping strings to a DSArraylist of neighbors.
+DSHashmap<DSArraylist<String>> graph;
+//finds a shortest path from start to end in this graph
+public void shortestPath(String start, String end) { 
+LinkedList<String> q = new LinkedList<>();
+q.push(start);
+while(!q.isempty) {
+String v = q.removeFirst() {
+if(visted)
+}
+}
+}
+}
